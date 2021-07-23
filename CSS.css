@@ -191,12 +191,30 @@ nav li a:hover {
     transform: translateY(-50%);  
 }
   
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
     .imagebox,
     .textbox-cont {
       width: 100%;
       height: 200px;
-     }
+    }
+
+	.column, .card{
+        width: 100%;
+        display: block;
+    }
+
+	.column {
+		float: left;
+		width: 100%;
+		margin-top: 16px;
+		padding: 0 8px;
+	}
+
+	.card img {
+		width: 200px;
+		height: 200px;
+	}
+	
 }
 
 .column {
