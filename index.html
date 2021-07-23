@@ -6,14 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Saiba Keibi</title>
 <link href="CSS.css" rel="stylesheet" type="text/css">
+<link href="JS.js" rel="stylesheet" type="text/js">
 </head>
 
 <body>
 	<!-- Bagian header lur -->
-	<nav>
+	  <nav>
       <div class="logo">
         <div><img src="img/logo.PNG" alt="logo" /></div>
-        <div><p>Saiba Keibi</p></div>
+        <div><p>Saiba <span>Keibi</span></p></div>
       </div>
       <div class="list">
         <ul>
@@ -25,88 +26,117 @@
         <a class="login" href="">Login</a>
       </div>
     </nav>
-	
-	<!-- Bagian body lur -->
-	<!-- WELCOME -->
-    <div class="welcome">
-        <h1>Selamat Datang di Website SaKi (Saiba Keibi)</h1>
-    </div>
+    
+	  <!-- MAIN -->
+    <header>
+      <div class="text">
+        <h1>Welcome to <span>Saiba Keibi!</span></h1>
+      </div>
+    </header>
 
-    <!-- TABEL -->
+	<!-- Bagian body lur -->
+
+    <!-- VISi MISI -->
     <center>
-        <table class="table1">
-            <tr>
-                <th>Visi</th>
-                <th>Misi</th>
-            </tr>
-            <tr>
-                <td>Menjadi perusahaan yang memiliki komitmen dan integritas yang tinggi sehingga dapat dipercaya sebagai salah satu penyedia solusi bagi permasalahan Cyber Security</td>
-                <td>1. Membangun kepercayaan masyarakat akan pentingnya keamanan data</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>2. Mendukung upaya pemerintah dalam penyediaan layanan jasa di bidang Cyber Security</td>
-            </tr>
-        </table>
+        <div class="textvm">
+          <h1>Tentang</h1>
+        </div>
+        <ul class="visi-misi">
+          <li>
+            <h3>01</h3>
+            <h4>Profile</h4>
+            <p>
+              SaKi (Saiba Keibi) adalah sebuah perusahaan jasa yang bergerak dalam bidang keamanan data,
+            routing, konfigurasi keamanan laptop/komputer, encrypt, dan decrypt file.
+            </p>
+          </li>
+
+          <li>
+            <h3>02</h3>
+            <h4>Visi</h4>
+            <p>
+              Menjadi perusahaan yang memiliki komitmen dan integritas yang tinggi sehingga dapat dipercaya sebagai salah satu penyedia solusi bagi permasalahan Cyber Security
+            </p>
+          </li>
+
+          <li>
+            <h3>03</h3>
+            <h4>Misi</h4>
+            <p>
+              1. Membangun kepercayaan masyarakat akna pentingnya keamanan data.
+            </p>
+
+            <p>
+              2. Mendukung upaya pemerintah dalam penyediaan layanan jasa di bidang Cyber Security.
+            </p>
+          </li>
     </center>
 
-    <!-- MATERI -->
-    <div class="imagebox">
-        <img src="img/cloud.jpg" width="100%" height="300px" />
-      </div>
 
-      <div class="textbox-cont">
-        <div class="textbox">
-          <h2>Cloud Security</h2>
-           <p>Pada jasa ini tim kami menawarkan sebuah sistem yang dibuat untuk melindungi data, 
-            aplikasi dan perangkat yang digunakan oleh customer dari serangan peretas yang tidak 
-            memiliki akses</p>
-           <a href="#">Read More</a>
-        </div>
+    <!--JASA-->
+    <center>
+      <div class="textjasa">
+        <h1>Jasa</h1>
       </div>
-
-    <div class="imagebox">
-        <img src="img/data.jpg" width="100%" height="300px" />
+      <div class="list">
+        <body>
+          <div class="container">  
+            <article class="episode">
+              <div class="episode__number">01</div>
+              <div class="episode__content">
+                <div class="title">Jasa Keamanan Data (Data Security)</div>
+                <div class="story">
+                  <h3>Pada jasa ini tim kami menawarkan sebuah sistem yang dibuat untuk melindungi data 
+                    pribadi maupun data perusahaan dari serangan peretas yang berupa pencurian data, 
+                    penghancuran data maupun penghapusan data.</h3>
+                </div>
+              </div>
+            </article>
+            <article class="episode">
+              <div class="episode__number">02</div>
+              <div class="episode__content">
+                <div class="title">Jasa Keamanan Cloud (Cloud Security)</div>
+                <div class="story">
+                  <h3>Pada jasa ini tim kami menawarkan sebuah sistem yang dibuat untuk melindungi data, 
+                    aplikasi dan perangkat yang digunakan oleh customer dari serangan peretas yang tidak 
+                    memiliki akses.
+                    </h3>
+                </div>
+              </div>
+            </article>
+            <article class="episode">
+              <div class="episode__number">03</div>
+              <div class="episode__content">
+                <div class="title">Encrypt and Decrypt File</div>
+                <div class="story">
+                  <h3>Pada jasa ini tim kami menawarkan jasa secara real-time atau face to face. Jasa yang 
+                    ditawarkan adalah penguncian dan pembukaan file baik secara online.
+                    </h3>
+                </div>
+              </div>
+            </article>
+            <article class="episode">
+              <div class="episode__number">04</div>
+              <div class="episode__content">
+                <div class="title">Firewall Configuration</div>
+                <div class="story">
+                  <h3>Pada jasa ini tim kami menawarkan jasa secara real-time dengan langsung datang ke 
+                    tempat customer. Jasa yang ditawarkan berupa konfigurasi firewall dalam router atau 
+                    switch serta pengaturan bandwidth dan IP Address</h3>
+                </div>
+              </div>
+            </article>
+          </div>
+            <h3 class="center"><a href="https://www.instagram.com/aristidebenoist/" target="_blank" rel="noopener noreferer">Inspired by Aristide Benoist</a></h3>
+          </body>
       </div>
-      <div class="textbox-cont">
-        <div class="textbox">
-          <h2>Data Security</h2>
-           <p>Pada jasa ini tim kami menawarkan sebuah sistem yang dibuat untuk melindungi data 
-            pribadi maupun data perusahaan dari serangan peretas yang berupa pencurian data, 
-            penghancuran data maupun penghapusan data</p>
-           <a href="#">Read More</a>
-        </div>
-      </div>
-
-    <div class="imagebox">
-        <img src="img/enkrip.png" width="100%" height="300px" />
-      </div>
-      <div class="textbox-cont">
-        <div class="textbox">
-          <h2>Encrypt and Decrypt Files</h2>
-           <p>Pada jasa ini tim kami menawarkan jasa secara real-time atau face to face. Jasa yang 
-            ditawarkan adalah penguncian dan pembukaan file baik secara online.
-            </p>
-           <a href="#">Read More</a>
-        </div>
-      </div>
-      
-    <div class="imagebox">
-        <img src="img/firewall.jpg" width="100%" height="300px" />
-      </div>
-      <div class="textbox-cont">
-        <div class="textbox">
-          <h2>Firewall Configuration</h2>
-           <p>Pada jasa ini tim kami menawarkan jasa secara real-time dengan langsung datang ke 
-            tempat customer. Jasa yang ditawarkan berupa konfigurasi firewall dalam router atau 
-            switch serta pengaturan bandwidth dan IP Address</p>
-           <a href="#">Read More</a>
-        </div>
-      </div>
-
+    </center>
+    
     <!-- ANGGOTA -->
     <center>
-
+      <div class="textang">
+        <h1>Anggota</h1>
+      </div>
       <div class="row">
           <div class="column">
               <div class="card">
@@ -155,40 +185,40 @@
       </div>
     </center>
 	
-	<!-- Bagian footer lur -->
-	<footer>
-		<div class="footer">
-			<div class="section footlog">
-				<div><img src="img/logo.PNG" alt="logo" /></div>
-				<div><p>Saiba Keibi</p></div>
-			</div>
-			
-			<div class="section about">
-				<h2>ABOUT US</h2>
-				<p>Sebuah perusahaan jasa yang bergerak dalam bidang keamanan data, routing, konfigurasi keamanan laptop/komputer, encrypt, dan decrypt file.</p>
+<!-- Bagian footer lur -->
+  <footer>
+    <div class="footer">
+      <div class="section footlog">
+        <div><img src="img/logo.PNG" alt="logo" /></div>
+        <div><p>Saiba <span>Keibi</span></p></div>
+      </div>
+      
+      <div class="section about">
+        <h2>ABOUT US</h2>
+        <p>Sebuah perusahaan jasa yang bergerak dalam bidang keamanan data, routing, konfigurasi keamanan laptop/komputer, encrypt, dan decrypt file.</p>
 
-			</div>
-			<div class="section supp">
-				<h2>SUPPORT</h2>
-				<ul>
-					<li><a href="#">About Saiba Keibi</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Help desk</a></li>
-					<li><a href="#">Terms and Conditions</a></li>
-				</ul>
-			</div>
-			<div class="section contact-us">
-				<h2>CONTACT US</h2>
-				<ul class="contact">
-					<li><span>Indonesia, ID</span>
-					</li>
-					<li><span>+62 1234567890<br>+62 0987654321</span>
-					</li>
-					<li><span><a href="#">saiba_keibi@gmail.com</a></span>
-					</li>
-				</ul>
-			</div>
-		</div>
+      </div>
+      <div class="section supp">
+        <h2>SUPPORT</h2>
+        <ul>
+          <li><a href="#">About Saiba Keibi</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Help desk</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+        </ul>
+      </div>
+      <div class="section contact-us">
+        <h2>CONTACT US</h2>
+        <ul class="contact">
+          <li><span>Indonesia, ID</span>
+          </li>
+          <li><span>+62 1234567890<br>+62 0987654321</span>
+          </li>
+          <li><span><a href="#">saiba_keibi@gmail.com</a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
 	</footer>
 	<div class="copyright">
 		<p> &copy;2021 Saiba Keibi, Inc.</p>
